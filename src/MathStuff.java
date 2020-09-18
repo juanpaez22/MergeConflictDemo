@@ -13,6 +13,11 @@ public class MathStuff {
     }
 
 
+    public static int subtract(int x, int y) {
+        int temp = x - y;
+        return temp;
+    }
+
     /**
      *
      * @param x
