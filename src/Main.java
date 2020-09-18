@@ -1,17 +1,15 @@
-package r2.src;
+import java.lang.Math;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(isPrime(50));
-        System.out.println(isPrime(123));
-        System.out.println(isPrime(37));
+        System.out.println(isPrime(23));
+        System.out.println(isPrime(63));
+        System.out.println(isPrime(1234675664231));
     }
 
     public static void isPrime(int x) {
-        for (int i = 2; i < x; i ++) {
-            if (x % i == 0) {
-                return false;
-            }
+        for (int j = 2; j < Math.sqrt(x); j ++) {
+            if (x % i == 0) return false;
         }
         return true;
     }
