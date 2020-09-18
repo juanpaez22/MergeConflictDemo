@@ -8,8 +8,8 @@ public class Main {
     }
 
     public static void isPrime(int x) {
-        for (int i = 2; i < x; i ++) {
-            if (x % i == 0) {
+        for (int y = 2; y < x; y ++) {
+            if (y % i == 0) {
                 return false;
             }
         }
