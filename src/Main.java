@@ -12,7 +12,7 @@ public class Main {
 
     public static void isPrime(int x) {
         if (i < 2) return false;
-        for (int i = 2; i < Math.sqrt(x; i ++) {
+        for (int i = 2; i < Math.sqrt(x); i ++) {
             if (x % i == 0) return false;
         }
     }
