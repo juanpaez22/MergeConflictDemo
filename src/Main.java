@@ -1,13 +1,17 @@
-import java.lang.Math;
-
 public class Main {
     public static void main(String[] args) {
-        System.out.println(isPrime(7));
-        System.out.println(isPrime(124323));
-        System.out.println(isPrime(3247));
-        System.out.println(isPrime(54));
-        System.out.println(isPrime(42));
-        System.out.println(isPrime(11));
+        System.out.println(isPrime(50));
+        System.out.println(isPrime(123));
+        System.out.println(isPrime(37));
+    }
+
+    public static void isPrime(int x) {
+        for (int i = 2; i < x; i ++) {
+            if (x % i == 0) {
+                return false;
+            }
+        }
+        return true;
     }
 }
 
